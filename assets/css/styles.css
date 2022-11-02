@@ -1,0 +1,121 @@
+/* colores usados 
+ -- #f8dd71
+ -- #ffc05add
+ -- #f0bd5a1
+ -- #f7f6ed
+
+*/
+body{
+    display: block;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f7f6ed;
+}
+
+/* ---- Estilos generales ---- */
+a{
+    color: inherit;
+}
+/* ---- Secciones ---- */
+
+/* ----> Nav <---- */
+
+nav.navbar{
+    background: #f0a433d0;
+}
+
+.navbar-brand > img{
+    width: 70px;
+}
+
+/*---- Span ---- */
+span.span1{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*---- h ----*/
+h1{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h5{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h6{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+label.form-label{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+button.letrabot{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a.nav-link{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* ---- p ---- */
+p.p1{
+    font-size: 25px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+p.p2{
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* ---- list ---- */
+li.list{
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+/* ---- stores ---- */
+
+.icons-stores > a{
+    --size:40px
+    width:var(--size);
+    height:var(--size);
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+footer.footcolor{
+    background:#f8dd71 ;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Botón */
+button.midu{
+    background-color: transparent;
+    font-weight: semibold;
+    color: #000000;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #f7f6ed;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #ffd940, -.5rem -.5rem 1rem #f7f6ed;
+}
+button.midu:hover{
+    box-shadow: .5rem .5rem 1rem #f7f6ed, -.5rem -.5rem 1rem #ffd940;
+}
+button.midu:active{
+    box-shadow: inset .2rem .2rem 1rem #f7f6ed, inset -.2rem -.2rem 1rem #ffd940;
+}
+button.midu a{
+    text-decoration: none;
+}
